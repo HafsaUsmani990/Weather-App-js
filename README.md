@@ -19,3 +19,4 @@ HTML5
 CSS3
 JavaScript (ES6)
 OpenWeatherMap API
+Weather icons by Flaticon
