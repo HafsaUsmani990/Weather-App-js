@@ -8,7 +8,7 @@ let citydescription = document.querySelector('#des');
 searchButton.addEventListener("click", ()=>{
     let city = userInput.value;
 
-    let apiKey = "54143ee3ed1c7121a9ba0b8ef0745c97";
+    let apiKey = "YOUR_API_KEY_HERE";
 
     let URL = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
     fetch(URL)
@@ -58,4 +58,5 @@ searchButton.addEventListener("click", ()=>{
         weatherCard.innerHTML = `<img src="${errorImg}" alt="Error" class="weather-icon">
         <p style="font-size:20px">City Not found..Try Again!</p>`;
     })
+
 });
