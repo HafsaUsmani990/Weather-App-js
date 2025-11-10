@@ -5,7 +5,7 @@
     font-family: 'poppins', sans-serif;
 }
 body{
-    background-color: #ffeedd;
+    background-color: #d7e3fc;
     display: grid;
     place-items: center;
     min-height:100vh;
@@ -16,6 +16,8 @@ body{
     background-color: #d7e3fc;
     padding: 20px;
     border-radius: 50px;
+    box-shadow: 0px 15px 30px rgba(0,0,0,0.3);
+    border: 1px solid grey;
 }
 .weather-box{
     display: flex;
@@ -32,6 +34,7 @@ input{
     border-radius: 30px;
     font-size: 16px;
     font-weight: 500;
+    border: 1px solid grey;
 }
 button {
     width: 65px;
@@ -46,6 +49,8 @@ button {
     text-align: center;
     cursor: pointer;
     padding: 0;
+    border: 1px solid grey;
+    
 }
 button:hover{
     background-color:#ffc4d6;
@@ -77,5 +82,5 @@ img{
     height: 200px;
 }
 .weather-icon{
-    margin: 6px;  
+    margin:6px;  
 }
